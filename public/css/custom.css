@@ -1,0 +1,19 @@
+.bg-picture-bw {
+    background-image: url("../img/bg-image.jpg");
+    background-color: #459cff; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.bg-cover {
+    background-image: url("../img/bg-cover.png");
+    background-color: #f5f5f5; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.rounded  {
+    border-radius: 32px !important;
+}
